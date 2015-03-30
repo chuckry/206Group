@@ -1,0 +1,69 @@
+* {
+	background-color: #0b1522;
+	font-size: 56px;
+	color: white;
+}
+
+label {
+	background-color: #808080;
+	display: block;
+}
+
+fieldset {
+	background-color: #808080;
+	max-width: 90%;
+	margin: 0px 5px;
+}
+
+input {
+	background-color: #808080;
+	padding: 3px;
+}
+
+div {
+	padding: 20px;
+}
+
+#student {
+	background-color: white;
+	color: black;
+}
+
+#site { 
+	background-color: white;
+	color: black;
+}
+
+#twitter {
+	background-color: white;
+	color: black;
+}
+
+legend {
+	background-color: white;
+	color: black;
+	padding: 5px;
+}
+
+h1 {
+	text-align: center;
+}
+
+@media only screen and (min-width: 750px) {
+	* {
+		font-size: 16px;
+	}
+
+	h1 {
+		font-size: 24px;
+	}
+
+	label {
+		padding: 3px 0px;
+	}
+
+	fieldset {
+		max-width: 80%;
+		margin-left: 8%;
+	}
+}
