@@ -37,6 +37,7 @@
 footer {
 	text-align: center;
 	font-size: 14px;
+	margin: 1.5% 0%;
 }
 
 @media only screen and (max-width: 719px) {
