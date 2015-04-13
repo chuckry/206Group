@@ -1,15 +1,15 @@
-<header>
-    <nav>
-        <a href="index.php"> 
-            <div 
+<header id="navHeader">
+    <nav id="navBar">
+        <a href="about.php" class="navLink"> 
+            <div
                 <?php 
-                    if ($currentPage == "index.php") {
+                    if ($currentPage == "about.php") {
                         echo " id=\"current\"";
                     }
                  ?>
             class="button"> HOME </div> 
         </a>
-        <a href="restaurants.php"> 
+        <a href="restaurants.php" class="navLink"> 
             <div 
                 <?php 
                     if ($currentPage == "restaurants.php") {
@@ -18,16 +18,16 @@
                  ?>
             class="button"> EATS </div> 
         </a>
-        <a href="bars.php"> 
+        <a href="bar.php" class="navLink"> 
             <div 
                 <?php 
-                    if ($currentPage == "bars.php") {
+                    if ($currentPage == "bar.php") {
                         echo " id=\"current\"";
                     }
                  ?>
             class="button"> BARS </div>
         </a>
-        <a href="sports.php"> 
+        <a href="sports.php" class="navLink"> 
             <div 
                 <?php 
                     if ($currentPage == "sports.php") {
@@ -36,10 +36,10 @@
                  ?>
             class="button"> SPORTS </div> 
         </a>
-        <a href="form.php"> 
+        <a href="form2.php" class="navLink"> 
             <div 
                 <?php 
-                    if ($currentPage == "form.php") {
+                    if ($currentPage == "form2.php") {
                         echo " id=\"current\"";
                     }
                  ?>
