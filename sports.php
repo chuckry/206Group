@@ -5,6 +5,7 @@
 	<title> Sporting Events </title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="sportsStyle.css">
 	<link rel="stylesheet" type="text/css" href="navStyle.css">
 </head>
 <body>
@@ -21,6 +22,7 @@
 
 		-->
 		<p class="content"> 
+			<p class="topic">Jim Harbaugh</p>
 			After being with the San Francisco 49ers for four years, head coach Jim 
 			Harbaugh returned to Ann Arbor to coach for his alma mater, the University 
 			of Michigan. Harbaugh used to play quarterback for the Wolverines for 
@@ -39,6 +41,7 @@
 			<img src="parksandrec.jpg">
 		</p>
 		<p class="content">
+			<p class="topic">Ann Arbor Parks and Rec</p>
 			Outside the University of Michigan campus, Ann Arbor boasts 30 basketball 
 			courts, 33 baseball fields, 18 soccer fields, and over 24 tennis courts.
 			Also offered are swim and golf lessons, canoe and kayak trips, and day
@@ -52,6 +55,8 @@
 			include yoga, meditation, and tai chi.
 		</p>
 	</section>
+
+  	<?php include("footer.php") ?>
 
 </body>
 </html>
