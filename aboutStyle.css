@@ -1,0 +1,84 @@
+/* WU WANG */
+
+* {
+	font-family: 'Poiret One', Helvetica;
+	color: white;
+}
+body{
+	background-color: #0b1522;
+}
+
+.head{
+	position: relative;
+	top: 0;
+	padding: 1%;
+	width: 95%;
+	margin: 0 auto;
+	margin-bottom: 2%;
+
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 150%;
+	color: white;
+	background-image: url('kerryd.jpg');
+}
+
+.content{
+	position: relative;
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 2%;
+	padding: 3%;
+	padding-top: 1%;
+	border: 3px groove white;
+	border-radius: 3px;
+	background-color: #0b1522;
+
+	opacity: 0.75;
+	font-size: 23px;
+}
+
+.rightImg {
+	visibility: hidden;
+	position: relative;
+	float: right;
+	width: 40%;
+}
+
+.video{
+	display: none;
+	z-index: -1;
+}
+
+@media only screen and (max-width: 768px) {
+	
+}
+
+@media only screen and (min-width: 1024px) {
+	nav {
+		width: 95%;
+		position: relative;
+	}
+	
+	.head{
+		background-image: none;
+	}
+
+	.rightImg{
+		visibility: visible;
+	}
+
+	.video{
+	display: block;
+	position: fixed;
+	width: 98%;
+	height: auto;
+	top: 0;
+	
+	text-align: center;
+	text-transform: uppercase;
+	font-family: 'Poiret One', Helvetica;
+	color: #ffffff;
+	}
+}
